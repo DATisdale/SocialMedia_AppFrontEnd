@@ -13,5 +13,15 @@
     border: solid black;
     height:650px;
     width:100%;
-    
+}
+
+.user{
+    padding:20%;
+}
+
+.status{
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 50%;
 }
