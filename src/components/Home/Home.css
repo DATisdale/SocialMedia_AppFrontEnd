@@ -1,0 +1,24 @@
+body{
+    background-image: 
+    url("../Img/stadium.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    position: relative;
+    opacity: .9;
+    width: 100vw;
+    height: 100vh;
+}
+
+.home{
+    margin-top: 6rem;
+    width: 45vw;
+    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
