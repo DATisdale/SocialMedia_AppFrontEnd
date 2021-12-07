@@ -1,6 +1,11 @@
-import React from 'react';
-import App from './component/App/App';
-import "mdb-react-ui-kit/dist/css/mdb.min.css"
-import reactDom from 'react-dom';
+import * as React from 'react';
+import ReactDOM from 'react-dom';
+import { StyledEngineProvider } from '@mui/material/styles';
+import App from './App';
 
-reactDom.render(<App />,document.getElementById('root'));
+ReactDOM.render(
+  <StyledEngineProvider injectFirst>
+    <App />
+  </StyledEngineProvider>,
+  document.querySelector("#root")
+);

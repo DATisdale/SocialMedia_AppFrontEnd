@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-
+import SearchBar from "./components/SearchBar/SearchBar";
 
 class App extends Component {
     state = {
@@ -10,6 +10,7 @@ class App extends Component {
 render() {
     return (
         <div className="container-fluid">
+        <SearchBar/>
 <h1>Sports and stuff fan site</h1>
         </div>
     )
