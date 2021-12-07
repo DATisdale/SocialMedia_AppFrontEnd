@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import SearchBar from "./components/SearchBar/SearchBar";
+import PageLayout from "./components/PageLayout/PageLayout";
 
 class App extends Component {
     state = {
@@ -12,6 +13,7 @@ render() {
         <div className="container-fluid">
         <SearchBar/>
 <h1>Sports and stuff fan site</h1>
+        <PageLayout/>
         </div>
     )
 }

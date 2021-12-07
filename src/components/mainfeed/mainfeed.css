@@ -1,0 +1,17 @@
+.feed{
+    background-color: grey;
+    text-align: center;
+    border-width: 1 1px;
+    border: solid black;
+    height:88%;
+    width:95%;
+}
+
+.MainFeed{
+    background-color: rgb(58, 58, 58);
+    text-align: center;
+    border: solid black;
+    height:650px;
+    width:100%;
+    
+}
