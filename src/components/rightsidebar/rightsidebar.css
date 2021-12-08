@@ -21,10 +21,11 @@ const sideBar = {
             width: 250
         }
     ],
-    position: 'left',
+    position: 'right',
     defaultToolPanel: 'filters'
 };
 
 <AgGridReact sideBar={sideBar}>
     {/* column definitions ... */}
 </AgGridReact>
+
