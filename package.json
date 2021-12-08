@@ -16,15 +16,8 @@
     "mui": "^0.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-<<<<<<< HEAD
-    "react-scripts": "^4.0.3",
-    "searchbar": "^0.0.0",
-    "styled-components": "^5.3.3",
-    "textfield": "^1.0.4",
-=======
     "react-router-dom": "^5.3.0",
-    "react-scripts": "4.0.3",
->>>>>>> dfab796bcde4b0dee1a0b4c3201c968484dcc590
+    "react-scripts": "^4.0.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
