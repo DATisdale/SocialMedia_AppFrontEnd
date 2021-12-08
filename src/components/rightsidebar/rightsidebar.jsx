@@ -1,8 +1,16 @@
 import * as React from 'react';
-import Box from '@mui/material/Box';
+import { render } from '@testing-library/react';
 
+render () {
+  return  
+    <span className="rightSidebar">Right Sidebar</span>
+}
 
-
-
+render() {
+  let className = 'rightSidebar';
+  if (this.props.isActive) {
+    className += 'rightSidebar-active'
+  }
+}
 
 export default "rightsidebar";
