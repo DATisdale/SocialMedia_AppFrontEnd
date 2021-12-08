@@ -29,7 +29,7 @@ const Home=()=>{
     </Box>
                 </div>
                 <div>
-                <Button variant="text">Signup</Button>
+                <Button href="/Signup" variant="text">Signup</Button>
                 </div>
                 <div>
                 <Button variant="text">Forgot Password</Button>

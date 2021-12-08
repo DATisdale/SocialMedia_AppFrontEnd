@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import {Switch, Route} from 'react-router-dom';
 import SearchBar from "./components/SearchBar/SearchBar";
 import Home from "./components/Home/Home"
+import Signup from "./components/Signup/Signup"
 // import PageLayout from "./components/PageLayout/PageLayout";
 
 class App extends Component {
@@ -21,9 +22,8 @@ render() {
         <SearchBar/>
         <Switch>
             <Route path="/" exact component={Home}/>
-            {/* <Route path="/login" exact component={Login}/>
-            <Route path="/signup" exact component={Signup}/>
-            <Route path="/newsFeed" exact Component={NewsFeed}/>
+            <Route path="/Signup" exact component={Signup}/>
+            {/* <Route path="/newsFeed" exact Component={NewsFeed}/>
             <Route path="/profile" render={(props) => {
                 if(!this.state.user){
                     return <Redirect to='/login' />
