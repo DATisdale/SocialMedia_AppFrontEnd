@@ -1,10 +1,5 @@
 const divStyle = {
     color: 'blue',
-    backgorundImage: 'url(' + imgUrl + ')',
+    
 
 };
-
-function rightSidebarComponent () {
-    return <div style={divStyle}>Right Sidebar</div>;
-
-}
