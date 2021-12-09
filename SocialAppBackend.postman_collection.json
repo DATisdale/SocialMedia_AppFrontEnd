@@ -1,0 +1,243 @@
+{
+	"info": {
+		"_postman_id": "ce99706f-5fa8-44d2-8042-da4d5cdf20a5",
+		"name": "SocialAppBackend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Find post by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/comments/Thesecondpost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"comments",
+						"Thesecondpost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create a Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"postId\": \"Thesecondpost\",\r\n\"text\": \"Post test post\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/comments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Adding Likes/Dislikes",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/comments/Thesecondpost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"comments",
+						"Thesecondpost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reply to Posts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/comments/Id/Thesecondpost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"comments",
+						"Id",
+						"Thesecondpost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register a User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"JJ Vega\",\r\n    \"email\": \"jjvega@devcodecamp.com\",\r\n    \"password\": \"BillyBobWins\",\r\n    \"isAdmin\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login Existing User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"jjvega@devcodecamp.com\",\r\n    \"password\": \"BillyBobWins\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "A User (requires admin auth)",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWFmY2U0MjA1Nzk2OGEzOTY5MTVjMmEiLCJuYW1lIjoiSkogVmVnYSIsImVtYWlsIjoiamp2ZWdhQGRldmNvZGVjYW1wLmNvbSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYzODkxMTYxNH0.MFc1xMi3fb49TkFzsZnIKeT9SqSRzhLPxl7YMuxPfYU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/users/61afce42057968a396915c2a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"61afce42057968a396915c2a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send a friend request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Accepting a friend request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/users/61b0e5788ca61e597d96586c/pendingFriends/61afba6362dfb83eb8029173",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"61b0e5788ca61e597d96586c",
+						"pendingFriends",
+						"61afba6362dfb83eb8029173"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

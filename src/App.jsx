@@ -7,10 +7,10 @@ import Signup from "./components/Signup/Signup"
 
 class App extends Component {
     state = {
-        videos: [],
-        selectedVideo: null,
-        object: null,
-        user: null
+        username: null,
+        email: null,
+        password: null,
+
     }
 
     componentDidMount(){
@@ -22,7 +22,7 @@ render() {
         <SearchBar/>
         <Switch>
             <Route path="/" exact component={Home}/>
-            <Route path="/Signup" exact component={Signup}/>
+            <Route path="/signup" component={Signup}/>
             {/* <Route path="/newsFeed" exact Component={NewsFeed}/>
             <Route path="/profile" render={(props) => {
                 if(!this.state.user){
