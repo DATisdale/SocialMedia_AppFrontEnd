@@ -25,7 +25,7 @@ function Signup(props){
 
 
     return(
-      <form onSubmit={handleSubmit}>
+      <form className="signup" onSubmit={handleSubmit}>
         <lable>Username</lable>
         <input value={username} onChange={(event) => setUsername(event.target.value)} type='text' />
 
