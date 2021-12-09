@@ -8,7 +8,6 @@ const MainFeed=()=>{
             <h1 classname="user">User</h1>
             <h4 className="status">Status</h4>
             </div>
-
         </div>
     )
 }
