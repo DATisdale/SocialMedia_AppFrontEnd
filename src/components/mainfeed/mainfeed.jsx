@@ -1,6 +1,6 @@
 import { BusAlertTwoTone } from '@mui/icons-material';
 import React from 'react';
-import './MainFeed.css'
+import './mainfeed.css'
 
 const MainFeed=()=>{
     return(

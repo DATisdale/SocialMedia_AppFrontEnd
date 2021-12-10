@@ -1,11 +1,12 @@
 import React, {Component} from "react";
 
 import {Switch, Route, Redirect} from 'react-router-dom';
-import SearchBar from "./components/Searchbar/Searchbar";
+import SearchBar from "./components/searchbar/searchbar";
 import LoginForm from "./components/LoginForm/LoginForm"
 import Signup from "./components/Signup/Signup"
 import Home from './components/Home/Home'
 import jwtDecode from 'jwt-decode'
+import Logout from './components/logout/logout'
 // import PageLayout from "./components/PageLayout/PageLayout";
 
 class App extends Component {
@@ -39,6 +40,7 @@ render() {
     return (
         <div className="App">
         <SearchBar/>
+        <Logout />
         <Switch>
             <Route path="/" exact render={(props) => {
                 if(!this.state.user){
