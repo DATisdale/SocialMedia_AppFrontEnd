@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Switch, Route} from 'react-router-dom';
-import SearchBar from "./components/Searchbar/Searchbar";
+import SearchBar from "./components/searchbar/searchbar";
 import Home from "./components/Home/Home"
 import Signup from "./components/Signup/Signup"
 // import PageLayout from "./components/PageLayout/PageLayout";
