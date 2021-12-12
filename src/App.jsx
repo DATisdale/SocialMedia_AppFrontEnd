@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 
 import {Switch, Route, Redirect} from 'react-router-dom';
-import SearchBar from "./components/searchbar/searchbar";
+import Searchbar from "./components/Searchbar/Searchbar"
 import LoginForm from "./components/LoginForm/LoginForm"
 import Signup from "./components/Signup/Signup"
 import Home from './components/Home/Home'
@@ -39,7 +39,7 @@ class App extends Component {
 render() {
     return (
         <div className="App">
-        <SearchBar/>
+        <Searchbar/>
         <Logout />
         <Switch>
             <Route path="/" exact render={(props) => {
