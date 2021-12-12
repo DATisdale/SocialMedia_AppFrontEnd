@@ -30,7 +30,7 @@ const Home = (props) => {
               </div>
             </div>
             <div className="profileRightBottom">
-              {/* <Feed /> */}
+              <MainFeed/>
               <RightSidebar/>
             </div>
           </div>

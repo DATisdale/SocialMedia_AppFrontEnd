@@ -1,6 +1,6 @@
 import { BusAlertTwoTone } from '@mui/icons-material';
 import React, { Component} from 'react';
-import './mainfeed.css';
+import './MainFeed.css';
 import jwtDecode from 'jwt-decode';
 import axios from 'axios';
 
