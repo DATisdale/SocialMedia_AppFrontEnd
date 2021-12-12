@@ -1,6 +1,6 @@
 import { BusAlertTwoTone } from '@mui/icons-material';
 import React, { Component} from 'react';
-import './mainfeed.css';
+import './MainFeed.css';
 import jwtDecode from 'jwt-decode';
 import axios from 'axios';
 
@@ -38,7 +38,7 @@ class MainFeed extends Component {
                     <hr />
                     <h3 className="Like Posts">("")</h3>
                     <button type="submit">Like{console.log(this.state.user)}</button>
-                    {/* <this.FriendsPosts />  */}
+                    <this.FriendsPosts /> 
                     <h3 className="Dislike Posts">("")</h3>
                     <button type="submit">Dislike</button>
                 </div>
