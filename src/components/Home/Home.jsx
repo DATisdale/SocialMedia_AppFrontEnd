@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import MainFeed from '../mainfeed/mainfeed';
+import MainFeed from '../MainFeed/MainFeed';
 import RightSidebar from "../RightSideBar/RightSideBar";
 import LeftSideBar from "../LeftSideBar/LeftSideBar"
 import "./Home.css";
@@ -30,7 +30,7 @@ const Home = (props) => {
               </div>
             </div>
             <div className="profileRightBottom">
-              {/* <Feed /> */}
+              <MainFeed/>
               <RightSidebar/>
             </div>
           </div>
