@@ -38,7 +38,7 @@ class MainFeed extends Component {
                     <hr />
                     <h3 className="Like Posts">("")</h3>
                     <button type="submit">Like{console.log(this.state.user)}</button>
-                    {/* <this.FriendsPosts />  */}
+                    <this.FriendsPosts /> 
                     <h3 className="Dislike Posts">("")</h3>
                     <button type="submit">Dislike</button>
                 </div>

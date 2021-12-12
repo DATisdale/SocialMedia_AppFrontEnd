@@ -1,4 +1,4 @@
-import "./RightSideBar.css";
+import "./rightSidebar.css";
 // import { Users } from "../../dummyData";
 // import Online from "../online/Online";
 

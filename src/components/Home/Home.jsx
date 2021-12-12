@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import MainFeed from '../mainfeed/mainfeed';
-import RightSidebar from "../RightSideBar/RightSideBar";
-import LeftSideBar from "../LeftSideBar/LeftSideBar"
+import RightSidebar from "../Rightsidebar/rightSidebar";
+import LeftSideBar from "../Leftsidebar/leftsidebar"
 import "./Home.css";
 
 const Home = (props) => {
