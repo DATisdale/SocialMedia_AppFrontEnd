@@ -5,7 +5,7 @@ body{
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
-    position: fixed;
+    position: relative;
     opacity: .9;
     width: 100vw;
     height: 100vh;

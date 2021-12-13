@@ -35,6 +35,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: rgb(118, 118, 250);
 }
 
 .profileInfoName{
@@ -43,6 +44,7 @@
 
 .profileInfoDesc{
     font-weight: 300;
+    font-size: xx-large;
 }
 
 .profileRightBottom{

@@ -27,7 +27,7 @@ function LoginForm(props){
 
         return (
           <form className="signup" onSubmit={handlesubmit}>
-            <lable>Username</lable>
+            <lable>Email</lable>
             <input value={email} onChange={(event) => getEmail(event.target.value)} type='text' />
     
             <lable>Password</lable>
